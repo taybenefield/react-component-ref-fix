@@ -1,0 +1,41 @@
+{
+  "name": "@taybenefield/react-component-ref-fix",
+  "description": "Fixed version of @fluentui/react-component-ref without findDOMNode",
+  "version": "0.66.5",
+  "author": "Taylor Benefield <taylorcbenefield@gmail.com>",
+  "dependencies": {
+    "@babel/runtime": "^7.10.4",
+    "react-is": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "@types/react-dom": "^19.0.4",
+    "@types/react-is": "^19.0.0",
+    "eslint": "^8.32.0",
+    "typescript": "^5.8.2"
+  },
+  "files": [
+    "dist"
+  ],
+  "jsnext:main": "dist/es/index.js",
+  "main": "dist/commonjs/index.js",
+  "module": "dist/es/index.js",
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17 || ^18",
+    "react-dom": "^16.8.0 || ^17 || ^18"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taybenefield/react-component-ref-fix.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "test": "echo \"No tests yet\""
+  },
+  "sideEffects": false,
+  "types": "dist/es/index.d.ts"
+}
